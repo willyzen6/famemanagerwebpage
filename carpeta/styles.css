@@ -1,0 +1,905 @@
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    overflow: visible; 
+}
+
+.cardp p span {
+    color: #00E064;
+}
+
+.container {
+    background-image: url(/img/bgonea.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55rem;
+}
+
+
+div.logo {
+    padding: 1rem;
+}
+
+div.logo img {
+    
+  width: 20rem;   
+  height: auto;
+}
+
+.info {
+    margin: 7rem;
+}
+
+.info h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 6rem;
+    text-shadow: 4px 4px 3px black;
+    transition: 0.3s ease-in;
+    margin-bottom: 1px;
+}
+
+.info h1:hover {
+    
+    font-size: 7rem;
+}
+
+.info h1.infodos {
+    font-size: 3rem;
+    font-family: 'Spartan', sans-serif;
+}
+
+
+/* container numero dos  */
+
+.containerdo {
+    width: 100%;   
+    background: linear-gradient(90deg, rgba(35,2,55,1) 0%, rgba(53,10,79,1) 49%, rgba(0,0,0,1) 100%); 
+    height: 55rem;
+    display: flex;
+    align-items: center;
+    flex: initial;
+    justify-content: center;
+}
+
+.containerdo img {
+    width: 50rem;
+    height: 35rem;
+    
+    padding: 5rem 0 0 4rem
+}
+
+
+
+div.card {
+    
+    width: 60rem;
+    height: 35rem;
+    margin: 5rem 0 0 2rem;
+    align-items: center;
+}
+
+div.subcard {
+
+    width: 75%;
+    height: 15rem;
+    margin: 1rem 0 0 5rem;
+    padding: 2rem;
+    background: linear-gradient(90deg, rgba(93,4,148,1) 0%, rgba(149,29,224,1) 35%, rgba(93,4,148,1) 100%);
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    transition: 0.5s ease;
+    box-shadow: 5px 4px 5px black;
+
+    
+}
+
+div.subcard:hover {
+    color: #00E064;
+    font-size: 1.10rem;
+
+}
+
+.subcard i {
+    font-size: 3rem;
+    color: #00E064;
+    
+}
+
+.subcard h1 {
+    padding: 0 4rem 2rem 4;
+}
+
+.containertre {
+    width: 100%;   
+    
+    height: 55rem;
+
+    display: flex;
+   
+    flex: initial;
+    justify-content: center;
+    
+    
+
+}
+
+.onecard {
+
+    background: linear-gradient(90deg, rgba(126,13,252,1) 0%, rgba(126,13,252,1) 46%, rgba(18,196,209,1) 100%);
+    margin-top: 5em;
+    width: 60rem;
+    height: 40rem;
+    border-radius: 30px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 5px 4px 5px black;
+    
+}
+
+.onecard h1 {
+    color: white;
+    padding: 0.5rem 3rem 0 3rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.onecard p {
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    transition: 0.3s ease-in;
+}
+
+.onecard p:hover {
+    font-size: 1.8em;
+}
+
+.onecard h2 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+} 
+
+.containercua {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #6123d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 130vh;
+}
+
+/* BOTON QUE FRAO  */
+
+button {
+    margin: 20px;
+    font-size: 2rem;
+  }
+.custom-btn {
+    width: 15rem;
+    height: 4rem;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+}
+  
+
+.btn-9 {
+    border: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.btn-9:hover {
+    background: transparent;
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+    color: rgb(36, 255, 84);
+}
+.btn-9:hover:after {
+    -webkit-transform: scale(2) rotate(180deg);
+    transform: scale(2) rotate(180deg);
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+}
+
+/* footer */
+
+footer {
+    background-color: black;
+}
+
+footer h1 {
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Spartan', sans-serif;
+    padding: 1rem;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.containercua h1 {
+    color: white;
+    padding-top: 3rem;
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+
+
+.precios {  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+}
+
+
+.cardp  {
+    margin: 2rem;
+    padding: 2rem;
+    width: 40rem;
+    height: 35rem;
+    border-radius: 10px;
+    background: linear-gradient(270deg, #00575e, #3b0053, #2c003e);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+.cardp img {
+    height: 8rem;
+    width: auto;
+}
+
+.cardp h1 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+}
+
+.cardp h1:hover {
+    color: #00E064;
+
+}
+
+.cardp p {
+    font-family: 'Spartan', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.cardp p:hover {
+    color: #00E064;
+}
+
+/* pagos */
+
+.metodos {
+    background: rgb(0,111,50);
+    background: linear-gradient(0deg, rgba(0,111,50,1) 0%, rgba(0,224,100,1) 37%, rgba(0,224,100,1) 72%);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.metodos h1 {
+    margin: 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pagos {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.opcionbin img {
+    width: 10em;
+}
+
+.opcion img {
+    padding: 0 3rem 0 3rem;
+}
+
+.ending {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+}
+
+.ending img{
+    width: 10rem;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 700px) {
+        html,body
+    {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+        overflow: visible;
+    }
+
+    .container {
+        width: 100%;
+        height: 40rem;
+        background-size: cover;
+
+    }
+
+    .cardp p span {
+        color: #00E064;
+    }
+    
+
+    div .logo img {
+        width: 6rem;
+    }
+        
+    
+
+    div .info {
+        margin: 1rem;
+
+
+    }
+
+    div .info h1 {
+        font-size: 1rem;
+    }
+
+    .info h1:hover {
+    
+        font-size: 1.5rem;
+    }
+
+    div.info h1.infodos {
+        font-size: 1.5rem;
+    }
+
+    .containerdo {
+        width: 100%;
+        height: 60rem;
+        display: block;
+        
+    }
+
+    div.containerdo img {
+        width: 22rem;
+        height: auto;
+        margin-left: 9rem;
+        padding: 1rem;  
+    }
+
+    div.card {
+        width: 100%;
+        margin: 1px;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    div.subcard {
+        margin: 0 0 1rem 0;
+        padding: 1rem;
+        width: 20rem;
+        height: 16rem;
+        margin-left: 10rem;
+        padding-bottom: 3rem;
+    }
+
+    div.subcard i {
+        font-size:
+         2rem;
+    }
+
+    div.subcard h1 {
+        font-size: 1.4rem;
+    }
+    
+    .containertre {
+        width: 100%;
+        height: 49rem;
+        display: block;
+    }
+
+    div.onecard {
+        margin: 0.5rem;
+        margin-top: 3rem;
+        margin-left: 10.7rem;
+        width: 20rem;
+        height: 29rem;
+    }
+
+    div.onecard h1, div.onecard h2 {
+        font-size: 1.4rem;
+    }
+
+    div.onecard p {
+        font-size: 1rem;
+    }
+
+    .onecard p:hover {
+        font-size: 1.4em;
+    }
+
+    div.containertre img.ww{
+        width: 20rem;
+        margin-left: 10rem;
+    }
+
+    div.containercua {
+        width: 100%;
+        height: 100%;      
+    }
+
+
+    .containercua h1 {
+        font-size: 1.5rem;
+        margin: 1rem;
+        padding: 1rem;  
+        margin-bottom: 0;
+    }
+
+    div.precios {
+        display: block;
+        margin-left: 8rem;
+    }
+
+    div.cardp {
+        width: 16rem;
+        height: 24rem;
+    }
+
+    div.containercua img {
+        width: 6rem;
+        height: auto;
+    } 
+
+    div.cardp p {
+        font-size: 1rem;
+    }
+
+    .metodos {
+        width: 100%;
+        height: 100%;  
+    }
+
+    div.pagos {
+        display: block;
+    }
+
+    .pagos img {
+        width: 30%;
+    }
+
+    .boton h1 {
+        padding: 1rem;
+    }
+
+    .ending {
+        display: block;
+    }
+}
+
+
+
+@media (max-width: 390px) {
+
+        html,body
+        {
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+            overflow-x: hidden; 
+            overflow: visible;
+        }
+
+        .container {
+            width: 100%;
+            height: 40rem;
+
+        }
+        
+        .cardp p span {
+            color: #00E064;
+        }
+
+        div .logo img {
+            width: 15rem;
+        }
+            
+        
+
+        div .info {
+            margin: 1rem;
+        }
+
+        .info h1:hover {
+    
+            font-size: 1.5rem;
+        }
+    
+        div .info h1 {
+            font-size: 2.5rem;
+
+
+
+        }
+
+        div.info h1.infodos {
+            font-size: 1.5rem;
+        }
+
+        .containerdo {
+            width: 100%;
+            height: 0 auto;
+            display: block;
+            
+        }
+
+        div.containerdo img {
+            width: 80%;
+            height: auto;
+            margin-left: 1rem;
+            padding: 1rem;  
+        }
+
+        div.card {
+            margin: 0;
+            padding: 0  ;
+    
+            
+
+            
+        }
+
+        div.subcard {
+            margin: 0;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            width: 20rem;
+            height: 16rem;
+            margin-left: 1.3rem;
+        }
+
+        div.subcard i {
+            font-size:
+             2rem;
+        }
+
+        div.subcard h1 {
+            font-size: 1.4rem;
+        }
+        
+        .containertre {
+            width: 100%;
+            height: 49rem;
+            display: block;
+        }
+
+        div.onecard {
+            margin: 0.5rem;
+            margin-top: 3rem;
+            margin-left: 2rem;
+            width: 20rem;
+            height: 29rem;
+        }
+
+        div.onecard h1, div.onecard h2 {
+            font-size: 1.4rem;
+        }
+
+        div.onecard p {
+            font-size: 1rem;
+        }
+
+        .onecard p:hover {
+            font-size: 1.4em;
+        }
+
+        div.containertre img.ww{
+            width: 20rem;
+            margin-left: 2rem;
+        }
+
+        div.containercua {
+            width: 100%;
+            height: 115rem;      
+        }
+
+
+        .containercua h1 {
+            font-size: 1.5rem;
+            margin: 1rem;
+            padding: 1rem;  
+        }
+
+        div.precios {
+            display: block;
+            margin-left: 0;
+        }
+
+        div.cardp {
+            width: 16rem;
+            height: 24rem;
+        }
+
+        div.containercua img {
+            width: 6rem;
+            height: auto;
+        } 
+
+        div.cardp p {
+            font-size: 1rem;
+        }
+
+        .metodos {
+            width: 100%;
+            height: 100%;  
+        }
+    
+        .pagos {
+            display: block;
+        }
+    
+        .pagos img {
+            width: 30%;
+        }
+    
+        .ending {
+            display: block;
+        }
+
+        .ending h1 {
+            font-size: 1.5rem;
+        }
+
+        .ending img {
+            float: initial;
+            
+        }
+    }
+
+@media (max-width: 412px) {
+
+    html,body
+    {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+        overflow: visible;
+    }
+
+    .container {
+        width: 100%;
+        height: 40rem;
+
+    }
+        
+    .cardp p span {
+            color: #00E064;
+    }
+
+    div .logo img {
+            width: 15rem;
+    }
+            
+        
+
+    div .info {
+            margin: 1rem;
+    }
+
+    .info h1:hover {
+    
+        font-size: 1.5rem;
+    }
+    
+    div .info h1 {
+        font-size: 2.5rem;
+
+
+
+    }
+
+    div.info h1.infodos {
+        font-size: 1.5rem;
+    }
+
+    .containerdo {
+        width: 100%;
+        height: 0 auto;
+        display: block;
+            
+    }
+
+    div.containerdo img {
+        width: 80%;
+        height: auto;
+        margin-left: 1rem;
+        padding: 1rem;  
+    }
+
+    div.card {
+        margin: 0;
+        padding: 0  ;
+    
+            
+
+            
+    }
+
+    div.subcard {
+        margin: 0;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        width: 20rem;
+        height: 16rem;
+        margin-left: 1.3rem;
+    }
+
+    div.subcard i {
+        font-size: 2rem;
+    }
+
+    div.subcard h1 {
+        font-size: 1.4rem;
+    }
+        
+    .containertre {
+        width: 100%;
+        height: 49rem;
+        display: block;
+    }
+
+    div.onecard {
+        margin: 0.5rem;
+        margin-top: 3rem;
+        margin-left: 2rem;
+        width: 20rem;
+        height: 29rem;
+    }
+
+    div.onecard h1, div.onecard h2 {
+        font-size: 1.4rem;
+    }
+
+    div.onecard p {
+        font-size: 1rem;
+    }
+
+    .onecard p:hover {
+        font-size: 1.4em;
+    }
+
+    div.containertre img.ww{
+        width: 20rem;
+        margin-left: 2rem;
+    }
+
+    div.containercua {
+        width: 100%;
+        height: 115rem;      
+    }
+
+
+    .containercua h1 {
+        font-size: 1.5rem;
+        margin: 1rem;
+        padding: 1rem;  
+    }
+
+    div.precios {
+        display: block;
+        margin-left: 0;
+    }
+
+    div.cardp {
+        width: 16rem;
+        height: 24rem;
+    }
+
+    div.containercua img {
+        width: 6rem;
+        height: auto;
+    } 
+
+    div.cardp p {
+        font-size: 1rem;
+    }
+
+    .metodos {
+        width: 100%;
+        height: 100%;  
+    }
+    
+    .pagos {
+        display: block;
+    }
+    
+    .pagos img {
+        width: 30%;
+    }
+    
+    .ending {
+        display: block;
+    }
+
+    .ending h1 {
+        font-size: 1.5rem;
+    }
+
+    .ending img {
+        float: initial;
+            
+    }
+}
